@@ -1,3 +1,7 @@
+Forked from https://github.com/brexis/laravel-workflow for Laravel 5.8 compatibility.
+
+May need to run `brew install Graphviz` to support the graphic output of your Workflows.
+
 # Laravel workflow [![Build Status](https://travis-ci.org/brexis/laravel-workflow.svg?branch=1.1.2)](https://travis-ci.org/brexis/laravel-workflow)
 
 Use the Symfony Workflow component in Laravel
