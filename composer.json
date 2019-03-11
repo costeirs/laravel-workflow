@@ -8,8 +8,8 @@
         "symfony/workflow": "^3.3 || ^4.0",
         "symfony/process": "^3.3 || ^4.0",
         "symfony/event-dispatcher": "^3.3 || ^4.0",
-        "illuminate/support": "^5.0",
-        "illuminate/console": "^5.0"
+        "illuminate/console": "^5.0",
+        "illuminate/support": "^5.0"
     },
     "autoload": {
         "psr-4": {
@@ -22,6 +22,9 @@
         }
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.3-dev"
+        },
         "laravel": {
             "providers": [
                 "Brexis\\LaravelWorkflow\\WorkflowServiceProvider"
@@ -34,7 +37,5 @@
     "require-dev": {
         "mockery/mockery": "^0.9.8",
         "phpunit/phpunit": "^6.0 || ~7.0"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
