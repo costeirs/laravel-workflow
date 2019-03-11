@@ -22,9 +22,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.1-dev"
-        },
         "laravel": {
             "providers": [
                 "Brexis\\LaravelWorkflow\\WorkflowServiceProvider"
@@ -37,5 +34,7 @@
     "require-dev": {
         "mockery/mockery": "^0.9.8",
         "phpunit/phpunit": "^6.0 || ~7.0"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
